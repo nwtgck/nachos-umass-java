@@ -47,5 +47,16 @@ Disk I/O: reads 0, writes 0
 Console I/O: reads 0, writes 0
 Paging: page faults 0, TLB misses 0
 Network I/O: received 0, sent 0
-
 ```
+
+## Indent
+
+Indent of original files are very strange. So files in this repo is refactored by the following command.
+
+```bash
+$ cd <this repo>
+$ cd nachos
+$ find . -name "*.java" | xargs java -jar google-java-format-1.4-all-deps.jar --replace
+```
+
+`google-java-format-1.4-all-deps.jar` is downloaded from https://github.com/google/google-java-format
