@@ -1,4 +1,4 @@
-# Nachos in Java
+# Nachos in Java [![Build Status](https://travis-ci.org/nwtgck/nachos-umass-java.svg?branch=master)](https://travis-ci.org/nwtgck/nachos-umass-java)
 
 Original code is found in [CS 377: Operating Systems - Gettings Started with Nachos](http://lass.cs.umass.edu/~shenoy/courses/fall12/discussions/nachos/)
 
