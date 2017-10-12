@@ -1,0 +1,4 @@
+sudo: false
+language: java
+script:
+- cd nachos/proj1 && make && ../bin/nachos
